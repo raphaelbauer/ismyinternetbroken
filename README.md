@@ -1,6 +1,8 @@
 Is My Internet Broken?
 ======================
 
+[![Build Status](https://api.travis-ci.org/raphaelbauer/ismyinternetbroken.svg)](https://travis-ci.org/raphaelbauer/ismyinternetbroken)
+
 Why?
 ----
 I am often working with my laptop. But sometimes my internet does not work. That's bad.
