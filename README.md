@@ -10,7 +10,7 @@ But in reality it's not my internet, but the wifi connection that is flaky.
 
 The fix is to repair the wifi connection in the first place.
 
-This little tool tells you exactly what is broken:
+A little system tray icon tells you exactly what is broken:
 - Your wifi (by pinging 192.168.1.1)
 - Or your ISP (by pinging  192.168.1.1 AND www.google.com)
 
