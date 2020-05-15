@@ -18,9 +18,10 @@ It does this by displaying a nice icon in the system tray next to the time.
 What does the icon mean?
 ------------------------
 
-- ![No internet icon](/src/main/resources/no_internet.png). Likely your wifi is broken. Neither 192.168.1.1 nor www.google.com can be reached.
-- ![Only router works icon](/src/main/resources/only_router_works.png). Likely your ISP is broken. google.com can NOT be reached - but 192.168.1.1 can be reached.
-- ![Internet works icon](/src/main/resources/all_works.png). Congrats. All is fine.
+- ![Internet works icon](/src/main/resources/all_works.png) Congrats. All is fine.
+- ![Only router works icon](/src/main/resources/only_router_works.png) Likely your ISP is broken. google.com can NOT be reached - but 192.168.1.1 can be reached.
+- ![No internet icon](/src/main/resources/no_internet.png) Likely your wifi is broken. Neither 192.168.1.1 nor www.google.com can be reached.
+
 
 
 How stable is the software?
@@ -38,5 +39,5 @@ Prerequisites
 Building and running
 --------------------
 
-  mvn package
-  java -jar ./target/ismyinternetbroken-1.0-SNAPSHOT-jar-with-dependencies.jar
+    mvn package
+    java -jar ./target/ismyinternetbroken-1.0-SNAPSHOT-jar-with-dependencies.jar
