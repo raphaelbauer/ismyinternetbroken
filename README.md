@@ -12,7 +12,7 @@ This little tool tells you exactly what is broken:
 - Your wifi (by pinging 192.168.1.1)
 - Or your ISP (by pinging  192.168.1.1 AND www.google.com)
 
-It does this by displaying a nice icon in the system tray next to the time.
+A little system tray icon keeps you updated.
 
 
 What does the icon mean?
