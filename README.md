@@ -14,8 +14,6 @@ A little system tray icon tells you exactly what is broken:
 - Your wifi (by pinging 192.168.1.1)
 - Or your ISP (by pinging  192.168.1.1 AND www.google.com)
 
-A little system tray icon keeps you updated.
-
 
 What does the icon mean?
 ------------------------
@@ -23,7 +21,6 @@ What does the icon mean?
 - ![Internet works icon](/src/main/resources/all_works.png) Congrats. All is fine.
 - ![Only router works icon](/src/main/resources/only_router_works.png) Likely your ISP is broken. google.com can NOT be reached - but 192.168.1.1 can be reached.
 - ![No internet icon](/src/main/resources/no_internet.png) Likely your wifi is broken. Neither 192.168.1.1 nor www.google.com can be reached.
-
 
 
 How stable is the software?
