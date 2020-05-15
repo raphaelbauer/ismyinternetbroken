@@ -1,0 +1,82 @@
+### Ignore all dot files ###
+.*
+
+
+### Scala ###
+*.sc
+
+
+### Play! ###
+project/project
+project/target
+target
+tmp
+public/*
+logs
+
+
+### Git ###
+!.gitignore
+*.orig
+.git/
+
+
+### UI ###
+ui/src/main/com/springer/nemo/platform/assets/components
+ui/src/main/com/springer/nemo/platform/assets/styles/grunticon
+node_modules
+npm-debug.log
+npm
+!.npmrc
+
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+
+### Eclipse ###
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+/bin
+/lib/
+out/
+
+### Nemo-Csscala ###
+src-generated/*
+
+### Python ###
+*.pyc
+/ask-happy/nbproject/
+/internal-feedback/nbproject/
+/le_agile_board/nbproject/private/
+/producr/nbproject/
+
+##gwt
+/zielboard/zielboard-ninja/src/main/java/assets/gwt
+/newsroll/nbproject/
+/juicynews/nbproject/
+/newsfeed2go/nbproject/
+/newsowl/nbproject/
+/newsowl-app/nbproject/private/
+/newsowl/newsowl-backend/nbproject/
+/newsowl/newsowl-frontend/nbproject/private/
+/stockomatic/nbproject/
+/ismyinternetbroken/nbproject/
