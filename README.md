@@ -1,7 +1,7 @@
 Is My Internet Broken?
 ======================
 
-[![Build Status](https://api.travis-ci.org/raphaelbauer/ismyinternetbroken.svg)](https://travis-ci.org/raphaelbauer/ismyinternetbroken)
+![Build Status](https://github.com/raphaelbauer/ismyinternetbroken/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 Why?
 ----
