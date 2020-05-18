@@ -51,19 +51,18 @@ public class IsMyInternetBroken {
         @SneakyThrows
         public void run() {
             
-            var routerAvailable = isTheFollowingAddressReachable("192.168.1.1");
-            
-            if (!routerAvailable) {
-                showIconInTray(trayIconNoInternet);
-                return;
-            }
-            
             var internetAvailable = isTheFollowingAddressReachable("www.google.com");
             
-            if (!internetAvailable) {
-                showIconInTray(trayIconOnlyRouterWorks);
-            } else {
+            if (internetAvailable) {
                 showIconInTray(tryIconAllWorks);
+            } else {
+                var routerAvailable = isTheFollowingAddressReachable("192.168.1.1");
+               
+                if (routerAvailable) {
+                    showIconInTray(trayIconOnlyRouterWorks);
+                } else {
+                    showIconInTray(trayIconNoInternet);
+                }
             }
             
         }
